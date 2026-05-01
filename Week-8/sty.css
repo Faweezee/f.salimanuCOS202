@@ -1,0 +1,48 @@
+/* uinveral selector */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* element selector */
+h1,
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+/* child selector */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+/* direct child selector*/
+ul > li {
+  height: 50px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+nav a {
+  color: inherit;
+  text-transform: capitalize;
+}
+
+/* sibling selector */
+/* all sibling and adj sibling */
+/* A sibling is an element inside another element */
+
+ol + p {
+  color: blue;
+}
+
+ol ~ p {
+  color: green;
+}
